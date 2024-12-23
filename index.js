@@ -12,6 +12,7 @@ function getSong() {
 
     return _song;
 }
+
 function singSong(_song) {
     if (!_song) throw new Error("song is '' empty, FEED ME A SONG!");
     console.log(_song);
